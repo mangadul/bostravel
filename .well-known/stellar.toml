@@ -1,0 +1,25 @@
+# Federation service provided by StellarID.io
+FEDERATION_SERVER="https://stellarid.io/federation/"
+
+[[CURRENCIES]]
+code="BOT"
+issuer="GATTH3VPK4PMXLE7JSEJ3OC72OYOGJYINLHSCJX365BP6SAV6GKSHJAV"
+display_decimals=7
+name="BosTravel"
+desc="BosTravel.Online - Make a Journey through blockchain"
+image="https://bostravel.online/assets/images/logo.png"
+host="https://bostravel.online"
+countries="ID"
+
+
+[DOCUMENTATION]
+ORG_NAME="BosTravel.Online"
+ORG_DBA="BosTravel"
+ORG_URL="https://bostravel.online"
+ORG_LOGO="https://bostravel.online/assets/images/logo.png"
+ORG_DESCRIPTION="BosTravel.Online - Make a Journey through blockchain"
+ORG_PHONE_NUMBER=""
+ORG_KEYBASE="bostravel"
+ORG_TWITTER="https://twitter.com/BosTravelOnline"
+ORG_GITHUB="https://github.com/bostravel"
+ORG_OFFICIAL_EMAIL="support@bostravel.online"
