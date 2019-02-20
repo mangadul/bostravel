@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/bostravel
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bostravel.online
+  * I am bostravel (https://keybase.io/bostravel) on keybase.
+  * I have a public key ASCE5iylPSJKqMDDg0SV0TMuVzhVvOzxVCiG5A_G7zuOXAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012084e62ca53d224aa8c0c3834495d1332e573855bcecf1542886e40fc6ef3b8e5c0a",
+      "host": "keybase.io",
+      "kid": "012084e62ca53d224aa8c0c3834495d1332e573855bcecf1542886e40fc6ef3b8e5c0a",
+      "uid": "8871ea079a283bcdd605bf1556ddb719",
+      "username": "bostravel"
+    },
+    "merkle_root": {
+      "ctime": 1550658703,
+      "hash": "01af755c6d0c52ba96cba74b1d9cb26899cf5f5fab9c6f31b8d24102dceb9df57eea4bc2745ddc49dae9ecfab0c4a1c294eaf352f713256cfc9e1b2e34b122ec",
+      "hash_meta": "67fa0e6a3a6673f6f6ae58b3ef619508d399decd3c7151521f90a0c8bbcd905a",
+      "seqno": 4797704
+    },
+    "service": {
+      "entropy": "OQEIKymdZHzDris98cAMxX9r",
+      "hostname": "bostravel.online",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.0.0"
+  },
+  "ctime": 1550658717,
+  "expire_in": 504576000,
+  "prev": "5c256b9d62241a9b66ede56f59f55dab8ed5851c0c63ad9ae7297d732d9b4e1b",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghOYspT0iSqjAw4NEldEzLlc4Vbzs8VQohuQPxu87jlwKp3BheWxvYWTESpcCBsQgXCVrnWIkGptm7eVvWfVdq47VhRwMY62a5yl9cy2bThvEIOZBgDrPAy1fysp1zpEKG9khZOwYv5K33y/k6ViKPJu0AgHCo3NpZ8RAfNe2vSovR225nUOsiGEW+VuH4kDJTyciIwtZzl8pvX6GNTzj4QjeJjR8U5hIYyQh/HPLSsSLM4Zkn6NS3bDYBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHnYZhXuhkiASjqfxphxxhhkxWzG7d8IvWrbZKPAYZGGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bostravel
+
+==================================================================
