@@ -8,9 +8,6 @@ display_decimals=7
 name="BosTravel"
 desc="BosTravel.Online - Make a Journey through blockchain"
 image="https://bostravel.online/assets/images/logo.png"
-host="https://bostravel.online"
-countries="ID"
-
 
 [DOCUMENTATION]
 ORG_NAME="BosTravel.Online"
