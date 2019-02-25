@@ -119,6 +119,46 @@
       </div>
     </header>
 
+    <!-- Promo -->
+    <section class="testimonials text-center bg-light">
+      <div class="container">
+        <h2 class="mb-5">Our Partners</h2>
+        <div class="row">
+          <div class="container">
+            <section class="partners-logos slider">
+              <div class="slide"><img src="assets/images/partners/campaign_1.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_10.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_102.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_103.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_104.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_2.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_21.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_22.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_4.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_44.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_45.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_47.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_57.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_62.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_69.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_7.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_72.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_83.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_84.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_86.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_87.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_89.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_90.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_91.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_92.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_94.png"></div>
+              <div class="slide"><img src="assets/images/partners/campaign_96.png"></div>
+            </section>
+          </div>
+        </div>        
+      </div>
+    </section>
+
     <!-- Icons Grid -->
     <section class="features-icons bg-light text-center">
       <div class="container">
@@ -305,8 +345,34 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
 
   </body>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.partners-logos').slick({
+        slidesToShow: 27,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        dots: false,
+          pauseOnHover: false,
+          responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+  </script>
 
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
