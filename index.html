@@ -98,6 +98,20 @@
     gtag('config', 'UA-135188265-1');
   </script>
 
+  <link rel="manifest" href="/manifest.json" />
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "961c71fb-5b84-4cc1-87a1-def6dd34ebc0",
+        notifyButton: {
+          enable: true,
+        },
+      });
+    });
+  </script>
+
   </head>
 
   <body>
@@ -330,7 +344,7 @@
                 <a href="https://www.travelpayouts.com/?marker=209131" target="_blank">Referral Program</a>
               </li>
               <li class="list-inline-item">&sdot;</li>              
-		<li class="list-inline-item">
+		          <li class="list-inline-item">
                 <a href="https://stellarport.io/exchange/alphanum4/BOT/GATTH3VPK4PMXLE7JSEJ3OC72OYOGJYINLHSCJX365BP6SAV6GKSHJAV/native/XLM/Stellar?tab=Markets" target="_blank">BOT Market</a>
               </li>
             </ul>
