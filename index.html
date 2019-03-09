@@ -105,10 +105,35 @@
     OneSignal.push(function() {
       OneSignal.init({
         appId: "961c71fb-5b84-4cc1-87a1-def6dd34ebc0",
+        autoRegister: false,
         notifyButton: {
-          enable: true,
+          enable: false,
+        },
+        welcomeNotification: {
+          "title": "Welcome to BosTravel.Online",
+          "message": "Thanks for subscribing!",
+          // "url": "" /* Leave commented for the notification to not open a window on Chrome and Firefox (on Safari, it opens to your webpage) */
+        },        
+        promptOptions: {
+          /* actionMessage limited to 90 characters */
+          actionMessage: "We'd like to show you notifications for the latest news, updates, promo and Giveaway.",
+          /* acceptButtonText limited to 15 characters */
+          acceptButtonText: "ALLOW",
+          /* cancelButtonText limited to 15 characters */
+          cancelButtonText: "NO THANKS"
         },
       });
+      if (Notification.permission === "granted") {
+        // Automatically subscribe user if deleted cookies and browser shows "Allow"
+        OneSignal.getUserId()
+          .then(function(userId) {
+            if (!userId) {
+              OneSignal.registerForPushNotifications();
+            }
+          })
+      } else {
+        OneSignal.showHttpPrompt();
+      }
     });
   </script>
 
