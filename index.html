@@ -269,8 +269,45 @@
                 <i class="icon-check m-auto text-primary"></i>
               </div>
               <h3>Safe, Easy to use and pay with Crypto</h3>
+              
+              <p class="lead mb-0">
+                <!-- changelly -->
+              <div align="center">
+                  <link rel="stylesheet" href="https://old.changelly.com/widget.css"/>
+                  <a id="changellyButton" href="https://old.changelly.com/widget/v1?auth=email&from=BTC&to=XLM&merchant_id=j65m6lhmxfcftwme&address=&amount=1&ref_id=j65m6lhmxfcftwme&color=00cf70" target="_blank">
+                    <img src="https://old.changelly.com/pay_button_exchange.png" />
+                  </a>
+                  <div id="changellyModal">
+                    <div class="changellyModal-content">
+                      <span class="changellyModal-close">x</span>
+                      <iframe
+                        src="https://old.changelly.com/widget/v1?auth=email&from=BTC&to=XLM&merchant_id=j65m6lhmxfcftwme&address=&amount=1&ref_id=j65m6lhmxfcftwme&color=00cf70"
+                        width="600"
+                        height="500"
+                        class="changelly"
+                        scrolling="no"
+                        style="overflow-y: hidden; border: none"
+                      >
+                        Can't load widget
+                      </iframe>
+                    </div>
+                    <script type="text/javascript">
+                      var changellyModal = document.getElementById('changellyModal');
+                      var changellyButton = document.getElementById('changellyButton');
+                      var changellyCloseButton = document.getElementsByClassName('changellyModal-close')[0];
+                      changellyCloseButton.onclick = function() {
+                          changellyModal.style.display = 'none';
+                      };
 
-              <p class="lead mb-0">All metadata and data transactions stored to <a href="https://ipfs.io" target="_blank">ipfs</a>. Your data saved and secured with encryption storage.<br />
+                      changellyButton.onclick = function widgetClick(e) {
+                        e.preventDefault();
+                        changellyModal.style.display = 'block';
+                      };
+                    </script>
+                  </div>
+              </div>
+              <!-- end changelly -->
+                All metadata and data transactions stored to <a href="https://ipfs.io" target="_blank">ipfs</a>. Your data saved and secured with encryption storage.<br />
               <a href='https://triv.co.id/aff/5c8e12cda6def' title='Triv - Jual beli perfect money, bitcoin, okpay, skrill, neteller' target="_blank"><img hspace='5' src='/assets/images/banner2-4.png' ></a>              
               </p>
             </div>
